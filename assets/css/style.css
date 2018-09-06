@@ -1,0 +1,329 @@
+
+
+
+.header {
+    border-bottom: solid #cccccc 2px;
+    background-color: white;
+    /* width:100%; */
+}
+
+
+
+.navbar {
+    padding: 0px;
+    margin: auto;
+    margin-bottom: -21px;
+    clear: both;
+    height: 83px;
+    width: 960px;
+}
+
+.linkBar {
+    float: right;
+    /* margin: 15px 0px 0px 0px; */
+}
+
+.nameLogo {
+    float: left;
+    background-color: #4aaaa5;
+    padding: 0px 25px 0px 25px;
+    /* margin: 0px 0px 0px -115px; */
+}
+
+/* .firstName {
+
+}
+
+.lastName {
+    visibility: hidden;
+}
+
+.lastName:hover {
+    visibility: visible; 
+
+} */
+
+
+.container {
+    padding: 0px;
+    border: solid #cccccc 1px;
+    /* margin: 60px; */
+    margin: auto;
+    margin-top: 60px;
+    max-width: 958px;
+    background-color: #F8F9F9;
+    box-shadow: 5px 5px 25px grey;
+    
+}
+
+.mainContent {
+    clear: both;
+    width: 100%;
+    margin: auto;
+    padding: 0px 0px 50px 0px;
+    max-width: 850px;
+    /* position: relative; */
+    /* border-bottom: solid #cccccc 2px; */
+
+}
+
+.profileImage{
+    width: 200px;
+    height: auto;
+    float:left;
+    margin: 25px 20px 20px 0px;
+    transform: rotate(-90deg);
+    border-radius: 50%;
+}
+
+.bigFancy {
+    font-size: 1.5em;
+    /* font-family: 'Diplomata SC', cursive; */
+    /* font-family: 'Monoton', cursive; */
+    /* font-family: 'Great Vibes', cursive; */
+    font-family: 'Tangerine', cursive;
+
+}
+
+.lrgft {
+    font-size: 19px;
+}
+
+hr {
+    width:100%;
+}
+
+.footer {
+    height: auto;
+    border-top: solid #4aaaa5 4px;
+    margin: auto;
+    background-color: #666666;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+}
+
+.endNote {
+    margin: 40px 0px 5px 0px;
+    color: white;
+    text-align: center;
+}
+
+
+.fa-github {
+    float: right;
+    text-align: center;
+    position: relative;
+    right: 50%;
+    margin-bottom: 5px; 
+
+}
+
+.whiteText {
+    color: white;
+}
+
+h1 {
+    font-size: 2.0em;
+    padding: 15px 0px 15px 0px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding: 15px 0px 8px 0px;
+    font-weight: 600;
+}
+
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+
+p, .specialFont, .textTile {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 1.75;
+    margin-bottom: 10px;
+} 
+
+.textTile {
+    color: #17202A;
+}
+
+body {
+    background-image: url("../../assets/images/bg.png");
+    background-repeat: repeat;
+    height: 1000px;
+    margin:auto;
+}
+
+a:link, a:visited, a:active { 
+    text-decoration: none;
+    color: #777777;
+}
+
+.input-margin {
+    padding: 0px 0px 20px 0px;
+}
+
+
+
+/*SHADOW FOR BUTTON HOVER*/
+.shadz:hover {
+    box-shadow: 2px 2px 12px #262626
+}
+
+/* .grow:hover {
+    
+} */
+
+
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+/*ALL THE PORTFOLIO STUFF*/
+.tileContainer {
+    right: 50%;
+    width: 675px;
+    margin: auto;
+    margin-bottom: 75px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.textTile {
+    background-color: #4aaaa5;
+    opacity: 50%;
+    padding: 5px;
+    border: solid #777777 1px;
+    border-radius: 0px;
+    border-top-right-radius: 40px;
+    margin: 10px 0px 0px 0px;
+    /* display: inline; */
+    position: relative;
+    top: 80px;
+}
+
+.siteTile {
+    width:150px;
+    height:150px;
+    clear:both;
+    position: absolute;
+    margin: 15px;
+
+}
+
+.box-1 {
+    background-image: url(../images/box1.png);
+    background-size: 150px 150px;
+    position: relative;
+}
+
+.box-2 {
+    background-image: url(../images/box2.png);
+    background-size: 150px 150px;
+    position: relative;
+}
+
+.box-3 {
+    background-image: url(../images/box3.png);
+    background-size: 150px 150px;
+    position: relative;
+}
+
+.box-4 {
+    background-image: url(../images/box4.png);
+    background-size: 150px 150px;
+    position: relative;
+}
+
+.box-5 {
+    background-image: url(../images/box5.png);
+    background-size: 150px 150px;
+    position: relative;
+}
+
+.box-6 {
+    background-image: url(../images/box6.png);
+    background-size: 150px 150px;
+    position: relative;
+}
+
+
+
+@media only screen and (max-width: 980px) {
+  .header {
+    
+    
+  }
+  .navbar {
+    width: 520px;
+  }
+  .nameLogo {
+
+  }
+  .linkBar { 
+
+
+  }
+  .container {
+    width: 520px;
+  }
+  .mainContent{
+    width: 480px;
+  }
+  .tileContainer {
+    width: 480px;
+  }
+
+}
+
+@media only screen and (max-width: 540px) {
+  body {
+    margin-bottom: 600px;
+  }
+  .header {
+    display: block;
+    height: 90px;
+    
+  }
+  .navbar {
+    width: 310px;
+  }
+  .nameLogo {
+    
+
+  }
+  .linkBar { 
+    float:none;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+
+
+  }
+  .container {
+    width: 310px;
+  }
+  .mainContent {
+    width: 290px;
+  }
+  .tileContainer {
+    width: 290px;
+  }
+}
